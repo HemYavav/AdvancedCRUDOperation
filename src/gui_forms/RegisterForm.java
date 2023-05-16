@@ -13,7 +13,8 @@ import listners.RegisterListner;
 
     public JButton btnRegister, btnCancel,btnLogin;
     
-    public JTextField username, password, mobile, email;
+    public JTextField username, mobile, email;
+    public JPasswordField password;
     public JLabel usernameJLabel, passwordJLabel, mobileJLabel,emailJLabel;
 
     public RegisterForm() {
@@ -36,7 +37,7 @@ import listners.RegisterListner;
         mobileJLabel = new JLabel("Enter user Mobile");
 
         username = new JTextField(15);
-        password = new JTextField(15);
+        password = new JPasswordField(15);
         email = new JTextField(15);
         mobile = new JTextField(15);
 

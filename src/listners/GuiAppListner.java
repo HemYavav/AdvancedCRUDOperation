@@ -27,6 +27,9 @@ public class GuiAppListner implements ActionListener{
             
             new RegisterForm();
         }
+        else if (e.getSource()==ap.btnExit) {
+         System.exit(0);
+        }
                
 
 

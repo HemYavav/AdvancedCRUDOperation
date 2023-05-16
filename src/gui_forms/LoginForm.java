@@ -12,7 +12,10 @@ import listners.LoginListner;
 
     public JButton btnLogin, btnCancel,btnNewuser;
     
-    public JTextField username, password;
+    public JTextField username;
+    
+   public JPasswordField password;
+    
     public JLabel usernameJLabel, passwordJLabel;
 
     public LoginForm() {
@@ -33,7 +36,7 @@ import listners.LoginListner;
         passwordJLabel = new JLabel("Password");
 
         username = new JTextField(15);
-        password = new JTextField(15);
+        password = new JPasswordField(15);
 
         frame.add(usernameJLabel);
         frame.add(username);
