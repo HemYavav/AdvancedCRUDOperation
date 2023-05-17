@@ -3,7 +3,7 @@ package gui_forms;
 import java.sql.*;
 import databaseconnection.ConnectionProviders;
 
-public class BatchUpdate {
+public class BatchUpdateTask {
 
     public static void main(String[] args) {
 
