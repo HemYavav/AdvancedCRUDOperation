@@ -20,7 +20,7 @@ public class InsertImageIntoDatabase {
             PreparedStatement preparedStatement = con1.prepareStatement("insert into imagetable values(?,?)");
             
             String file = System.getProperty("user.dir");
-            file = file+ "\\src\\gui_forms\\h.jpg";
+            file = file+ "\\src\\gui_forms\\h.heic";
             System.out.println(file);
             FileInputStream fin = new FileInputStream(file);
             
